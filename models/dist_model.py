@@ -167,3 +167,6 @@ def score_jnd_dataset(data_loader,func):
     score = util.voc_ap(recs,precs)
 
     return(score, dict(ds=ds,sames=sames))
+
+
+# --- end code --
